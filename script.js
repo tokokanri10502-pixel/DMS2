@@ -1,128 +1,8 @@
 // DMS 問題集データ (自動生成)
 const QUIZ_DATA = [
   {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
     "id": "Q1",
-    "text": "Googleの「NotebookLM」の最大の特徴として、正しいものはどれか？",
-    "options": [
-      "ネット上の最新情報を自動で毎日要約して届けてくれる機能",
-      "アップロードした「自分の資料（ソース）」に基づいた分析や回答に特化している点",
-      "プログラミングコードを入力するだけで、自動でアプリを完成させる機能",
-      "写真や動画をアップロードすると、自動でSNS用のバナー画像を作成する点"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q2",
-    "text": "NotebookLMで、資料を読み込ませた後に「よくある質問」や「学習ガイド」などを自動作成してくれる機能を何と呼ぶか？",
-    "options": [
-      "ノートブックガイド",
-      "プロンプト集",
-      "ソースエディタ",
-      "ナレッジグラフ"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q3",
-    "text": "生成AIに対して、自分の意図した回答を引き出すために入力する「指示文」を何と呼ぶか？",
-    "options": [
-      "クエリ",
-      "プロンプト",
-      "コマンド",
-      "ログ"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q4",
-    "text": "AIに指示を出す際、単に「書いて」と言うより、「あなたはプロの編集者です」と役割を与える手法を何と呼ぶか？",
-    "options": [
-      "ターゲティング",
-      "フィルタリング",
-      "デバッグ",
-      "ロール（役割）付与"
-    ],
-    "answerIndex": 3
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q5",
-    "text": "AIが「もっともらしい嘘」を自信満々に回答してしまう現象を指す用語はどれか？",
-    "options": [
-      "ハルシネーション",
-      "バズ",
-      "フリーズ",
-      "シャドーIT"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q6",
-    "text": "Antigravity（アンチグラビティ）で利用できるモデル「Nano Banana」の主な得意分野はどれか？",
-    "options": [
-      "数時間に及ぶ長尺動画の内容をすべて正確に書き起こすこと",
-      "高度な物理シミュレーションや、複雑なプログラミングの構築",
-      "非常に高速なレスポンスで、短文の添削や簡単な定型業務をこなすこと",
-      "プロレベルの高品質なイラストや人物写真を生成すること"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q7",
-    "text": "ChatGPT（OpenAI）において、特定の業務に合わせてカスタマイズした「自分専用のAI」を作成できる機能はどれか？",
-    "options": [
-      "Plug-in",
-      "Advanced Voice",
-      "GPTs",
-      "DALL-E"
-    ],
-    "answerIndex": 2
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q8",
-    "text": "ChatGPTなどの大規模言語モデル（LLM）が、膨大な文章から重要なポイントを抜き出す作業を何と呼ぶか？",
-    "options": [
-      "スキャン",
-      "要約（サマリー）",
-      "フィルタリング",
-      "アーカイブ"
-    ],
-    "answerIndex": 1
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q9",
-    "text": "Antigravityのようなツールで、異なる特徴を持つ複数のAI（Pro系やFlash系など）を切り替えて使う主な理由はどれか？",
-    "options": [
-      "処理速度、回答精度、利用コスト（トークン）のバランスを最適化するため",
-      "1つのAIでは1時間に1回しか質問ができないという制限があるため",
-      "AIごとに対応している言語（日本語のみ、英語のみ等）が厳密に分かれているため",
-      "パソコンのメーカー（AppleかMicrosoftか）によって使えるAIが異なるため"
-    ],
-    "answerIndex": 0
-  },
-  {
-    "chapter": "第1章：生成AI・主要ツール編（AI活用を自分ごとに）",
-    "id": "Q10",
-    "text": "生成AIが作成した文章を社外資料に活用する際、品質管理の観点で「最も重要」とされるプロセスはどれか？",
-    "options": [
-      "AIにさらに長い文章を書かせて情報を増やすこと",
-      "別の複数のAIに同じ質問をして、回答を多数決で決めること",
-      "印刷して、フォントの見た目が綺麗かどうかを確認すること",
-      "内容に誤りがないか、人間の目による事実確認と校正を行うこと"
-    ],
-    "answerIndex": 3
-  },
-  {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q11",
     "text": "Webサイトの通信を暗号化し、第三者による盗聴を防ぐ仕組み（URLがhttpsで始まるもの）は？",
     "options": [
       "SEO対策",
@@ -133,8 +13,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q12",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q2",
     "text": "複数のシステムを、1つのIDとパスワードでログインして利用できる仕組みは？",
     "options": [
       "VPN",
@@ -145,8 +25,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q13",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q3",
     "text": "スマホやPCなど、端末の画面サイズに合わせてレイアウトが自動で最適化される手法は？",
     "options": [
       "レスポンシブデザイン",
@@ -157,8 +37,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q14",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q4",
     "text": "インターネット上の機器を識別するために割り当てられる「ネットワーク上の住所」は？",
     "options": [
       "MACアドレス",
@@ -169,8 +49,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q15",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q5",
     "text": "次回訪問時の表示を高速化するために、ブラウザがデータを一時的に保存する仕組みは？",
     "options": [
       "Cookie",
@@ -181,8 +61,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q16",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q6",
     "text": "テレワーク先などから安全に社内システムへ接続するための仮想専用線技術は？",
     "options": [
       "VPN",
@@ -193,8 +73,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q17",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q7",
     "text": "パソコンやスマホの土台となる「基本ソフトウェア（WindowsやiOSなど）」の総称は？",
     "options": [
       "ブラウザ",
@@ -205,8 +85,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q18",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q8",
     "text": "ブラウザ等に後から便利な機能を追加するための小さなプログラムの総称は？",
     "options": [
       "ドライバ",
@@ -217,8 +97,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q19",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q9",
     "text": "ネット経由でソフトウェアの機能を月額課金などで利用する形態（Zoom等）は？",
     "options": [
       "SaaS（サース）",
@@ -229,8 +109,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第2章：ITインフラ・基礎知識編（デジタルの土台）",
-    "id": "Q20",
+    "chapter": "第1章：ITインフラ・基礎知識編（デジタルの土台）",
+    "id": "Q10",
     "text": "ウイルスなど、デバイスに悪意のある動作をさせるソフトウェアの総称は？",
     "options": [
       "スパム",
@@ -241,8 +121,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q21",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q11",
     "text": "デザイン作業の前に作成する、画面のレイアウトやボタン配置を決めた「設計図」は？",
     "options": [
       "モックアップ",
@@ -253,8 +133,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q22",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q12",
     "text": "専門知識がなくても、管理画面からテキストを登録してWebサイトを更新できるシステムは？",
     "options": [
       "CRM",
@@ -265,8 +145,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q23",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q13",
     "text": "ユーザーが目にする画面の「見た目や操作性」を指す用語は？",
     "options": [
       "UI（ユーザーインターフェース）",
@@ -277,8 +157,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q24",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q14",
     "text": "ユーザーがサービスを利用して得られる「体験や満足度」の総称は？",
     "options": [
       "UI",
@@ -289,8 +169,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q25",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q15",
     "text": "ユーザーの入力内容や訪問履歴を、ブラウザに一時的に保存させる仕組み（ファイル）は？",
     "options": [
       "セッション",
@@ -301,8 +181,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q26",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q16",
     "text": "Webページの「構造」を定義するHTMLに対し、「装飾」を指定する言語は？",
     "options": [
       "CSS",
@@ -313,8 +193,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q27",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q17",
     "text": "広告のリンク先となるページ（LP）を改善し、お問い合わせ率を高める施策は？",
     "options": [
       "SEO",
@@ -325,8 +205,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q28",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q18",
     "text": "商品購入や問い合わせなど、Webサイトにおける「最終的な成果」を指す言葉は？",
     "options": [
       "インプレッション",
@@ -337,8 +217,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q29",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q19",
     "text": "1つの商品を売ることに特化した、縦長のWebサイトを何と呼ぶか？",
     "options": [
       "コーポレートサイト",
@@ -349,8 +229,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第3章：Web制作・マーケティング編（現場で使う用語）",
-    "id": "Q30",
+    "chapter": "第2章：Web制作・マーケティング編（現場で使う用語）",
+    "id": "Q20",
     "text": "検索結果で自社サイトを上位（目立つ場所）に表示させるための改善施策は？",
     "options": [
       "SEO（検索エンジン最適化）",
@@ -361,8 +241,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q31",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q21",
     "text": "広告がユーザーの画面に「表示された回数」を示す指標は？",
     "options": [
       "リーチ",
@@ -373,8 +253,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q32",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q22",
     "text": "広告を見た人のうち、実際にクリックした人の割合を示す指標は？",
     "options": [
       "CTR（クリック率）",
@@ -385,8 +265,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q33",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q23",
     "text": "1回のコンバージョンを獲得するのにかかった広告費用のことは？",
     "options": [
       "CPC",
@@ -397,8 +277,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q34",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q24",
     "text": "検索したキーワードに連動して検索結果の上部に出るテキスト広告は？",
     "options": [
       "ディスプレイ広告",
@@ -409,8 +289,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q35",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q25",
     "text": "一度サイトに来たユーザーを、別のサイトでも追いかけて表示する広告は？",
     "options": [
       "リスティング広告",
@@ -421,8 +301,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q36",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q26",
     "text": "サイトを訪問したユーザーが、1ページ目だけを見て帰ってしまった割合は？",
     "options": [
       "離脱率",
@@ -433,8 +313,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q37",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q27",
     "text": "サイト内のページが見られた「延べ回数」を指す指標は？",
     "options": [
       "UU",
@@ -445,8 +325,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q38",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q28",
     "text": "投資した広告費に対して、どれだけの「売上」を得られたかを示す指標は？",
     "options": [
       "ROI",
@@ -457,8 +337,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q39",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q29",
     "text": "2種類のデザインを同時に配信し、どちらが成果が出るか比較する検証は？",
     "options": [
       "ストレステスト",
@@ -469,8 +349,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第4章：広告・分析編（数字を読み解く）",
-    "id": "Q40",
+    "chapter": "第3章：広告・分析編（数字を読み解く）",
+    "id": "Q30",
     "text": "最終目標達成のための「中間目標（チェックポイント）」となる数値は？",
     "options": [
       "KGI",
@@ -481,8 +361,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q41",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q31",
     "text": "デジタルを活用してビジネスモデルを根本から変革し、競争優位を確立することは？",
     "options": [
       "デジタイゼーション",
@@ -493,8 +373,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q42",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q32",
     "text": "ソフトウェアを買い切るのではなく、月額定額などで利用する課金モデルは？",
     "options": [
       "フリーミアム",
@@ -505,8 +385,8 @@ const QUIZ_DATA = [
     "answerIndex": 2
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q43",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q33",
     "text": "顧客の基本情報や対応履歴を一元管理する「顧客関係管理システム」は？",
     "options": [
       "SFA",
@@ -517,8 +397,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q44",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q34",
     "text": "短い期間で開発とテストを繰り返し、柔軟に仕様変更に対応する手法は？",
     "options": [
       "ウォーターフォール開発",
@@ -529,8 +409,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q45",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q35",
     "text": "「内側も疑う」ことを前提とし、常に認証を行う最新のセキュリティ概念は？",
     "options": [
       "ファイアウォール",
@@ -541,8 +421,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q46",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q36",
     "text": "会社が許可していない個人のツールを、従業員が勝手に業務で使うリスクは？",
     "options": [
       "テレワーク",
@@ -553,8 +433,8 @@ const QUIZ_DATA = [
     "answerIndex": 3
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q47",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q37",
     "text": "会議をスムーズに進めるための「議題・進行表」を何と呼ぶか？",
     "options": [
       "アジェンダ",
@@ -565,8 +445,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q48",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q38",
     "text": "仕事を特定の担当者に割り当てたり、任命したりすることを何と呼ぶか？",
     "options": [
       "サイン",
@@ -577,8 +457,8 @@ const QUIZ_DATA = [
     "answerIndex": 1
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q49",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q39",
     "text": "言った言わないを防ぐための「客観的な証拠・裏付け」を指す言葉は？",
     "options": [
       "エビデンス",
@@ -589,8 +469,8 @@ const QUIZ_DATA = [
     "answerIndex": 0
   },
   {
-    "chapter": "第5章：トレンド・戦略・セキュリティ編",
-    "id": "Q50",
+    "chapter": "第4章：ビジネススキル・セキュリティ編",
+    "id": "Q40",
     "text": "情報を正しく理解し、安全・効果的に使いこなす基礎能力のことは？",
     "options": [
       "プログラミング",
@@ -599,6 +479,126 @@ const QUIZ_DATA = [
       "アナリティクス"
     ],
     "answerIndex": 2
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q41",
+    "text": "Googleの「NotebookLM」の最大の特徴として、正しいものはどれか？",
+    "options": [
+      "ネット上の最新情報を自動で毎日要約して届けてくれる機能",
+      "アップロードした「自分の資料（ソース）」に基づいた分析や回答に特化している点",
+      "プログラミングコードを入力するだけで、自動でアプリを完成させる機能",
+      "写真や動画をアップロードすると、自動でSNS用のバナー画像を作成する点"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q42",
+    "text": "NotebookLMで、資料を読み込ませた後に「よくある質問」や「学習ガイド」などを自動作成してくれる機能を何と呼ぶか？",
+    "options": [
+      "ノートブックガイド",
+      "プロンプト集",
+      "ソースエディタ",
+      "ナレッジグラフ"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q43",
+    "text": "生成AIに対して、自分の意図した回答を引き出すために入力する「指示文」を何と呼ぶか？",
+    "options": [
+      "クエリ",
+      "プロンプト",
+      "コマンド",
+      "ログ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q44",
+    "text": "AIに指示を出す際、単に「書いて」と言うより、「あなたはプロの編集者です」と役割を与える手法を何と呼ぶか？",
+    "options": [
+      "ターゲティング",
+      "フィルタリング",
+      "デバッグ",
+      "ロール（役割）付与"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q45",
+    "text": "AIが「もっともらしい嘘」を自信満々に回答してしまう現象を指す用語はどれか？",
+    "options": [
+      "ハルシネーション",
+      "バズ",
+      "フリーズ",
+      "シャドーIT"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q46",
+    "text": "Antigravity（アンチグラビティ）で利用できるモデル「Nano Banana」の主な得意分野はどれか？",
+    "options": [
+      "数時間に及ぶ長尺動画の内容をすべて正確に書き起こすこと",
+      "高度な物理シミュレーションや、複雑なプログラミングの構築",
+      "非常に高速なレスポンスで、短文の添削や簡単な定型業務をこなすこと",
+      "プロレベルの高品質なイラストや人物写真を生成すること"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q47",
+    "text": "ChatGPT（OpenAI）において、特定の業務に合わせてカスタマイズした「自分専用のAI」を作成できる機能はどれか？",
+    "options": [
+      "Plug-in",
+      "Advanced Voice",
+      "GPTs",
+      "DALL-E"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q48",
+    "text": "ChatGPTなどの大規模言語モデル（LLM）が、膨大な文章から重要なポイントを抜き出す作業を何と呼ぶか？",
+    "options": [
+      "スキャン",
+      "要約（サマリー）",
+      "フィルタリング",
+      "アーカイブ"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q49",
+    "text": "Antigravityのようなツールで、異なる特徴を持つ複数のAI（Pro系やFlash系など）を切り替えて使う主な理由はどれか？",
+    "options": [
+      "処理速度、回答精度、利用コスト（トークン）のバランスを最適化するため",
+      "1つのAIでは1時間に1回しか質問ができないという制限があるため",
+      "AIごとに対応している言語（日本語のみ、英語のみ等）が厳密に分かれているため",
+      "パソコンのメーカー（AppleかMicrosoftか）によって使えるAIが異なるため"
+    ],
+    "answerIndex": 0
+  },
+  {
+    "chapter": "第5章：生成AI・主要ツール編（AI活用を自分ごとに）",
+    "id": "Q50",
+    "text": "生成AIが作成した文章を社外資料に活用する際、品質管理の観点で「最も重要」とされるプロセスはどれか？",
+    "options": [
+      "AIにさらに長い文章を書かせて情報を増やすこと",
+      "別の複数のAIに同じ質問をして、回答を多数決で決めること",
+      "印刷して、フォントの見た目が綺麗かどうかを確認すること",
+      "内容に誤りがないか、人間の目による事実確認と校正を行うこと"
+    ],
+    "answerIndex": 3
   }
 ];
 
@@ -779,11 +779,38 @@ function showResult() {
     for (const [chapter, stats] of Object.entries(chapterStats)) {
         const chapPercent = Math.round((stats.correct / stats.total) * 100) || 0;
         chapterHtml += `
-            <div style="margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">
-                <div style="font-weight: bold; margin-bottom: 0.25rem; font-size: 1.1rem; color: var(--text-main);">${chapter}</div>
-                <div style="display: flex; justify-content: space-between; color: var(--text-muted); font-size: 0.95rem;">
-                    <span>正解数: <strong style="color: var(--text-main);">${stats.correct}</strong> / ${stats.total} 問</span>
-                    <span>正解率: <strong style="color: var(--text-main);">${chapPercent}%</strong></span>
+            <div style="margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between;">
+                <div>
+                    <div style="font-weight: bold; margin-bottom: 0.25rem; font-size: 1.1rem; color: var(--text-main);">${chapter}</div>
+                    <div style="color: var(--text-muted); font-size: 0.95rem;">
+                        <span>正解数: <strong style="color: var(--text-main);">${stats.correct}</strong> / ${stats.total} 問</span>
+                    </div>
+                </div>
+                <div style="
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background: conic-gradient(var(--correct-color) ${chapPercent}%, var(--border-color) 0);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-shrink: 0;
+                    margin-left: 1rem;
+                ">
+                    <div style="
+                        width: 40px;
+                        height: 40px;
+                        background: var(--surface-color);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 0.8rem;
+                        font-weight: bold;
+                        color: var(--text-main);
+                    ">
+                        ${chapPercent}%
+                    </div>
                 </div>
             </div>
         `;
